@@ -1,0 +1,13 @@
+[
+{
+	"id" : "rpi-cross-scripting",
+	"caption": "rpi-cross-scripting",
+	"children":
+	[
+	{
+		"caption" : "run",
+		"command" : "rpi"
+	}
+	]
+}
+]

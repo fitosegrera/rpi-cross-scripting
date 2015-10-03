@@ -1,0 +1,7 @@
+{
+	"ip"		: "192.168.1.107",
+	"username" 	: "pi",
+	"password"	: "raspberry",
+	"origin"	: "/home/fitosegrera/Desktop/main.py",
+	"target"	: ":~/droneTest"
+}
