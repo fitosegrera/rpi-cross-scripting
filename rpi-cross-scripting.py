@@ -16,6 +16,5 @@ class Rpi(sublime_plugin.TextCommand):
 
 		# commandToExecute = "scp " + jsonData["origin"] + " " + jsonData["username"] + "@" + jsonData["ip"] + jsonData["target"]
 		# subprocess.call(commandToExecute, shell=True)
-		#subprocess.call('sshpass -pFito_1015! ssh -o StrictHostKeyChecking=no root@192.168.1.106 ls /shares', shell=True)
-		proc = Popen(['sshpass', '-p', 'Fito_1015!', 'ssh', '-o', 'StrictHostKeyChecking=no', 'root@192.168.1.106', 'ls', '/shares'], stdout=PIPE)
+		proc = Popen(['sshpass', '-p', 'PASSWORD', 'ssh', '-o', 'StrictHostKeyChecking=no', 'root@IP.ADDRESS', 'ls', '/shares'], stdout=PIPE)
 		print(proc.communicate())
